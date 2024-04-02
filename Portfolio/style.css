@@ -25,6 +25,18 @@ header{
     padding: 15px 3%;
     background-color: transparent;
 }
+/* Section hero */
+.hero{
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(245.59deg,grey 19%, blueviolet 25%,black 60%);
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2rem;
+}
 .logo{
   font-size: 30px;
   font-weight: 600;
