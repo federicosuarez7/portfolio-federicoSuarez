@@ -38,6 +38,9 @@ header{
 }
 #menu-hamb{
   display: none;
+  font-size: 35px;
+  z-index: 101;
+  cursor:pointer;
 }
 /* Eliminar cuando veamos javascript */
 #menu-toggle{
