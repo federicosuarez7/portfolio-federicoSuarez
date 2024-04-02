@@ -32,6 +32,17 @@ header{
 .navbar{
   display: flex;
 }
+/* Eliminar cuando veamos javascript */
+.menu-action{
+  display: none;
+}
+#menu-hamb{
+  display: none;
+}
+/* Eliminar cuando veamos javascript */
+#menu-toggle{
+  display: none;
+}
 .navbar li{
   margin-left: 60px;
   font-size: 15px;
