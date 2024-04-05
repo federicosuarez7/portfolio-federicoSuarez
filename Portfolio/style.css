@@ -46,6 +46,26 @@ header{
   width: 420px;
   opacity: 0.6;
 }
+.hero-text a{
+  display: inline-block;
+  color: black;
+  background-color: white;
+  font-weight: 700;
+  border-radius: 12px;
+  padding: 4px;
+}
+.hero-text a:hover{
+  background-color: black;
+  color: white;
+  border: solid 1px white;
+  transform: translateX(6px);
+}
+.hero-text span{
+  color: black;
+}
+.hero-text span:hover{
+  color: white;
+}
 .hero-text h1{
   font-size: 50px;
   line-height: 1;
@@ -90,7 +110,11 @@ header{
   transition: all .5s ease;
 }
 .navbar li:hover{
-  border-bottom: white solid 2px;
+  border: solid 1px white;
+  border-radius: 12px;
+  padding: 4px;
+  font-size: 18px;
+  transform: translateX(6px);
 }
 section{
   padding:0 10%;
