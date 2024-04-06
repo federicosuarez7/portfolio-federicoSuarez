@@ -13,6 +13,18 @@
 body{
     background-color: black;
 }
+/* Footer */
+.pie{
+  position: absolute;
+  bottom: 2%;
+  display: block;
+  padding-left: 30%;
+  padding-top: 10px;
+  border-top: solid 1px white;
+}
+.pie h3{
+  font-size: 15px;
+}
 header{
     position: fixed;
     right: 0;
@@ -147,5 +159,19 @@ header{
 }
 section{
   padding:0 10%;
+}
+/* whatsapp */
+.whatsapp{
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+}
+.whatsapp i{
+  font-size: 70px;
+}
+.whatsapp i:hover{
+  color: #4ac959;
+  font-size: 80px;
+  transform: translateX(8px);
 }
 
