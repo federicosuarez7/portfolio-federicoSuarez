@@ -116,6 +116,21 @@ header{
   font-size: 18px;
   transform: translateX(6px);
 }
+/* Iconos redes sociales */
+.redes{
+  position: absolute;
+  top: 35vh;
+  padding: 0 3%;
+}
+.redes i{
+  display: block;
+  padding-top: 10px;
+  font-size: 35px;
+}
+.redes i:hover{
+  font-size: 45px;
+  transform: translateX(8px);
+}
 section{
   padding:0 10%;
 }
