@@ -99,6 +99,7 @@ header{
 #menu-toggle{
   display: none;
 }
+/* Barra de navegacion principal */
 .navbar{
   display: flex;
 }
@@ -130,6 +131,19 @@ header{
 .redes i:hover{
   font-size: 45px;
   transform: translateX(8px);
+}
+/* Icono scroll down */
+.scroll-down{
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+.scroll-down i{
+  display: block;
+  font-size: 25px;
+}
+.scroll-down i:hover{
+  font-size: 35px;
 }
 section{
   padding:0 10%;
