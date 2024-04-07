@@ -157,6 +157,9 @@ header{
 /* Barra de navegacion principal */
 .navbar{
   display: flex;
+  position: fixed;
+  margin-left: 60%;
+  opacity: 0.8;
 }
 .navbar li{
   margin-left: 60px;
