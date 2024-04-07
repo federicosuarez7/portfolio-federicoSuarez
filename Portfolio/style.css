@@ -13,13 +13,56 @@
 body{
     background-color: black;
 }
+/* Formulario de contacto */
+#boton{
+  margin-top: 10px;
+  width: min-content;
+  color: black;
+  padding: 5px 9px;
+  font-weight: 700;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+#boton:hover{
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  transform: translateX(6px);
+}
+.form-form{
+  display: grid;
+}
+.section-form{
+  margin:auto;
+  width: 50vw;
+  margin-bottom: 25px;
+}
+.section-form h2{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.section-form h2:hover{
+  font-size: 28px;
+}
+.section-form input{
+  color: black;
+  font-weight: 600;
+}
+.section-form label{
+  margin-top: 10px;
+}
+.section-form textarea{
+  color: black;
+  font-weight: 600;
+}
 /* Footer */
 .pie{
-  position: absolute;
-  bottom: 2%;
+  margin:auto;
   display: block;
-  padding-left: 30%;
+  padding-left: 35%;
   padding-top: 10px;
+  padding-bottom: 10px;
   border-top: solid 1px white;
 }
 .pie h3{
@@ -131,7 +174,7 @@ header{
 }
 /* Iconos redes sociales */
 .redes{
-  position: absolute;
+  position: fixed;
   top: 35vh;
   padding: 0 3%;
 }
@@ -146,8 +189,8 @@ header{
 }
 /* Icono scroll down */
 .scroll-down{
-  position: absolute;
-  bottom: 5%;
+  position: fixed;
+  bottom: 6%;
   left: 5%;
 }
 .scroll-down i{
@@ -163,7 +206,7 @@ section{
 /* whatsapp */
 .whatsapp{
   position: fixed;
-  bottom: 5%;
+  bottom: 6%;
   right: 5%;
 }
 .whatsapp i{
