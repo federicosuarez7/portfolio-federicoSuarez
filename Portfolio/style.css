@@ -22,6 +22,7 @@ body{
   font-weight: 700;
   border-radius: 16px;
   margin-bottom: 10px;
+  transition: all .5s ease;
 }
 #boton:hover{
   background-color: black;
@@ -41,6 +42,7 @@ body{
   display: flex;
   justify-content: center;
   margin-top: 40px;
+  transition: all .5s ease;
 }
 .section-form h2:hover{
   font-size: 28px;
@@ -96,6 +98,7 @@ header{
   width: 400px;
   border-radius: 350px;
   margin: 10% 0 0 15%;
+  transition: all .5s ease;
 }
 .hero-img img:hover{
   width: 420px;
@@ -108,6 +111,7 @@ header{
   font-weight: 700;
   border-radius: 12px;
   padding: 4px;
+  transition: all .5s ease;
 }
 .hero-text a:hover{
   background-color: black;
@@ -122,30 +126,134 @@ header{
   color: white;
 }
 .hero-text h1{
-  font-size: 50px;
+  font-size: 40px;
   line-height: 1;
   margin: 0 0 30px;
 }
 .hero-text h5{
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400px;
   margin-bottom: 25px;
 }
 .hero-text p{
   font-size: 80%;
   margin-bottom: 40px;
-  line-height: 2px;
+  line-height: 1.9;
 }
 .logo{
   font-size: 30px;
   font-weight: 600;
 }
+/* Media queris */
+@media (max-width: 992px){
+  .logo{
+    font-size: 20px;
+  }
+  .hero-text{
+    padding-top: 0;
+  }
+  .hero-img{
+    text-align: center;
+  }
+  .hero-img img{
+    width: 80%;
+    margin: 10% 0 0 10%;
+  }
+  .hero-img img:hover{
+    width: 350px;
+  }
+  .hero-text p{
+    font-size: 70%;
+  }
+  section{
+    padding: 0 3%;
+  }
+  .whatsapp i{
+    font-size: 50px;
+  }
+  .section-form h2:hover{
+    font-size: 23px;
+  }
+} 
+@media (max-width: 768px){
+  .logo{
+    font-size: 18px;
+  }
+  .hero{
+    height: 100%;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+  }
+  .hero-text{
+    text-align: center;
+    padding-top: 100px;
+  }
+  .hero-img{
+    margin-left: -40px;
+  }
+  .hero-img img{
+    width: 250px;
+  }
+  .hero-img img:hover{
+    width: 270px;
+  }
+  .hero-text h1{
+    font-size: 30px;
+  }
+  .hero-text p{
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .menu-action{
+    display: block;
+    color: white;
+  }
+  #menu-icon{
+    display: block;
+    color: white;
+  }
+  #menu-toggle:checked + label.menu-icon-action + ul{
+    right: 0;
+  }
+  .navlist{
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    width: 160px;
+    height: 80px;
+    background-color: white;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    transition: all .5s easy-out;
+  }
+  .navlist a{
+    display: block;
+    color: black;
+  }
+  .pie{
+    padding-left: 30%;
+  }
+  .pie h3{
+    font-size: 12px;
+  }
+  .section-form h2{
+    font-size: 20px;
+  }
+  .section-form h2:hover{
+    font-size: 19px;
+  }
+  .whatsapp i{
+    font-size: 40px;
+  }
+} 
 /* Eliminar cuando veamos javascript */
 .menu-action{
   display: none;
 }
-#menu-hamb{
-  color:white;
+#menu-icon{
+  display: none;
   font-size: 35px;
   z-index: 101;
   cursor:pointer;
@@ -155,20 +263,16 @@ header{
   display: none;
 }
 /* Barra de navegacion principal */
-.navbar{
+.navlist{
   display: flex;
-  position: fixed;
-  margin-left: 60%;
-  opacity: 0.8;
 }
-.navbar li{
+.navlist a{
   margin-left: 60px;
   font-size: 15px;
   font-weight: 600;
-  border-bottom: 2px solid transparent;
   transition: all .5s ease;
 }
-.navbar li:hover{
+.navlist a:hover{
   border: solid 1px white;
   border-radius: 12px;
   padding: 4px;
@@ -185,6 +289,7 @@ header{
   display: block;
   padding-top: 10px;
   font-size: 35px;
+  transition: all .5s ease;
 }
 .redes i:hover{
   font-size: 45px;
@@ -199,12 +304,13 @@ header{
 .scroll-down i{
   display: block;
   font-size: 25px;
+  transition: all .5s ease;
 }
 .scroll-down i:hover{
   font-size: 35px;
 }
 section{
-  padding:0 10%;
+  padding:0 8%;
 }
 /* whatsapp */
 .whatsapp{
@@ -214,6 +320,7 @@ section{
 }
 .whatsapp i{
   font-size: 70px;
+  transition: all .5s ease;
 }
 .whatsapp i:hover{
   color: #4ac959;
